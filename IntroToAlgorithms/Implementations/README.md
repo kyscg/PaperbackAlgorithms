@@ -5,3 +5,7 @@
 ### Insertion Sort
 
 * [Insertion Sort](https://)
+
+### Designing Algorithms
+
+* [Merge Sort](https://)

@@ -14,3 +14,14 @@
     * Initialization
     * Maintenance
     * Termination
+
+## Analyzing Algorithms
+
+* For most analysis, we'll assume a generic one-processor, random-access machine (RAM) model of computation as our implementation technology.
+
+* Instructions are executed one after the other, without any concurrent ops.
+
+* In RAM model, instructions taking constant time are: 
+    * Arithmetic(add, subtract, multiply, divide, remainder, floor, ceiling)
+    * Data movement(load, store, copy)
+    * Control(conditional and unconditional branch, subroutine call and return)
