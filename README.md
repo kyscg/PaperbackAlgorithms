@@ -14,7 +14,7 @@ This repository will have solutions and notes to [Introduction to Algorithms](ht
         * README file with chapterwise links
         * Code
 
-* The Algorithm Design Manual
+* The Algorithm Design Manual //**to be changed later**
     * Notes (divided chapter wise) (not very detailed, only important/fun stuff)
     * Solutions to Exercises (Theoretical) (Detailed but also easy to understand, preferably with examples)
         * README with links
