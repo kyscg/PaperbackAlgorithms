@@ -1,12 +1,12 @@
-# Implementations of Pseudocode
+# Implementations
 
-## Getting Started
+## Chapter 2: Getting Started
 
 ### Insertion Sort
 
 * [Insertion Sort](https://): C++ implementation of the [Insertion Sort Algorithm](https://en.wikipedia.org/wiki/Insertion_sort)
 
-* [Linear Search](https://)
+* [Linear Search](https://): C++ implementation of the [Linear Search Algorithm](https://en.wikipedia.org/wiki/Linear_search). Returns the index if the element is found and "NIL" if not.
 
 * [Add binary numbers](https://)
 
