@@ -1,4 +1,4 @@
-# The Role of Algorithms in Computing
+# Chapter 1: The Role of Algorithms in Computing
 
 ## Algorithms
 
@@ -6,7 +6,7 @@
 
 * Usual measure of efficiency is speed.
 
-# Getting Started
+# Chapter 2: Getting Started
 
 ## Insertion Sort
 

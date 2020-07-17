@@ -4,12 +4,12 @@ This repository will have solutions and notes to [Introduction to Algorithms](ht
 
 * Introduction to Algorithms
     * Notes (divided chapter wise) (not very detailed, only important/fun stuff)
-    * Solutions to Exercises (Theoretical) (Detailed but also easy to understand, preferably with examples)
+    * Solutions ~~to Exercises~~ (Theoretical + Applied) (Detailed but also easy to understand, preferably with examples)
         * README with links
         * Solutions as .md (or is tex better?) (draw.io for diagrams? or pictures of hand-drawings?)
-    * Solutions to Exercises
-        * README file that has chapterwise links to code files
-        * Code in C++, Java or god forbid, Python.
+    * ~~Solutions to Exercises~~ (removing this section, everything goes to a single solutions folder)
+        * ~~README file that has chapterwise links to code files~~
+        * ~~Code in C++, Java or god forbid, Python.~~
     * Implementations (of pseudocode in chapters)
         * README file with chapterwise links
         * Code

@@ -29,3 +29,14 @@
 * [Horner's Rule](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/hornersRule.cpp): C++ implementation of [Horner's Rule for polynomial evaluation](https://en.wikipedia.org/wiki/Horner%27s_method).
 
 * [Counting Inversions in $\Theta(n\lg{n})$ time](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/inversionCount.cpp): C++ implementation of an algorithm that counts the number of [inversions](https://en.wikipedia.org/wiki/Inversion_discrete_mathematics) in an array by slightly modifying merge sort.
+
+
+## Chapter 4: Divide and Conquer
+
+### The maximum-subarray problem
+
+* [Find the Maximum Subarray, Brute Force](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/findMaxSubarrayBruteForce.cpp): C++ implementation of a naive algorithm to find the sum of contiguous subarray of numbers which has the largest sum. Uses two for loops to go through every pair and updates the sum.
+
+* [Find the Maximum Subarray, Divide and Conquer](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/findMaxSubarrayDivideConquer.py): Python implementation of a divide and conquer approach to solve the above problem. Python was preferred because returning tuples is easier.
+
+* [Find the Maximum Subarray, Linear Time Complexity](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/findMaxSubarrayLinear.cpp): C++ implementation of a linear time complex algorithm to find the sum of contiguous subarray of numbers which has the largest sum. Uses two for loops to go through every pair and updates the sum. **The important thing to note is that everytime we see a new number, it either adds to the subarray or begins a new one.**
