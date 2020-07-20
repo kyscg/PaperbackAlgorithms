@@ -40,3 +40,11 @@
 * [Find the Maximum Subarray, Divide and Conquer](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/findMaxSubarrayDivideConquer.py): Python implementation of a divide and conquer approach to solve the above problem. Python was preferred because returning tuples is easier.
 
 * [Find the Maximum Subarray, Linear Time Complexity](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/findMaxSubarrayLinear.cpp): C++ implementation of a linear time complex algorithm to find the sum of contiguous subarray of numbers which has the largest sum. Uses two for loops to go through every pair and updates the sum. **The important thing to note is that everytime we see a new number, it either adds to the subarray or begins a new one.**
+
+### Strassen’s algorithm for matrix multiplication
+
+* [Square Matrix Multiplication, Brute Force](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/squareMatrixMultiplyBruteForce.py): Python implementation of a naive algorithm to compute matrix products. Python was preferred because test case generation is much easier, especially with matrices.
+
+* [Square Matrix Multiplication, Divide and Conquer](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/squareMatrixMultiplyBruteForce.py): Python implementation of a recursive algorithm to compute matrix products. Not much improvement observed compared to the previous approach.
+
+* [Square Matrix Multiplication, Strassen's Algorithm](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/squareMatrixMultiplyBruteForce.py): Python implementation of a slight improvement(not really, see notes) over the previous approaches to compute matrix products.
