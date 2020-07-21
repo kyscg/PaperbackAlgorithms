@@ -48,3 +48,9 @@
 * [Square Matrix Multiplication, Divide and Conquer](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/squareMatrixMultiplyBruteForce.py): Python implementation of a recursive algorithm to compute matrix products. Not much improvement observed compared to the previous approach.
 
 * [Square Matrix Multiplication, Strassen's Algorithm](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/squareMatrixMultiplyBruteForce.py): Python implementation of a slight improvement(not really, see notes) over the previous approaches to compute matrix products.
+
+## Chapter 5: Probabilistic Analysis and Randomized Algorithms
+
+### Problems
+
+* [Random Search](https://github.com/kyscg/PaperbackAlgorithms/blob/master/IntroToAlgorithms/Implementations/randomSearch.cpp): C++ implementation of the [Random Search Algorithm](https://en.wikipedia.org/wiki/Random_search)
