@@ -1,14 +1,19 @@
+/*
+ * Name:        hornersRule.cpp
+ * Description: Implementation of Horner's Rule for polynomial evaluation
+ * Author:      kyscg
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 
-
 void hornerRule(int a[], int n, int x)
 {
-	int y = 0;
-	for (int i = n - 1; i > -1; i--)
-		y = (y + a[i]) * x;
+    int y = 0;
+    for (int i = n - 1; i > -1; i--)
+        y = (y + a[i]) * x;
 
-	cout << "y = " << y;
+    cout << "y = " << y;
 }
 
 int main()
@@ -26,14 +31,13 @@ int main()
     for (int i = 0; i < n; i++)
         cin >> a[i];
 
-	// cout << "Enter value of x";
-	int x;
-	cin >> x;
+    // cout << "Enter value of x";
+    int x;
+    cin >> x;
 
-	// output: sorted array
-	hornerRule(a, n, x);
+    // output: sorted array
+    hornerRule(a, n, x);
 
     cout << "\n";
     return 0;
 }
-

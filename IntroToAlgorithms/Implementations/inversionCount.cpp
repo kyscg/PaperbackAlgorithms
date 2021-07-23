@@ -1,6 +1,12 @@
+/*
+ * Name:        inversionCount.cpp
+ * Description: Counting the number of inversions in an array by
+ *              modifying the mergesort algorithm.
+ * Author:      kyscg
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
-
 
 int merge(int a[], int p, int q, int r)
 {
@@ -70,7 +76,7 @@ int main()
     cin >> n;
     //cout << "Enter the keys:\n";
     int a[n] = {0};
-    for(int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
         cin >> a[i];
 
     //MergeSort
@@ -82,4 +88,3 @@ int main()
     cout << "\n";
     return 0;
 }
-
