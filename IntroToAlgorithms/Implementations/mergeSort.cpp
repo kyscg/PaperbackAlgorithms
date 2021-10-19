@@ -1,3 +1,9 @@
+/*
+ * Name:        mergeSort.cpp
+ * Description: Implementation of the Merge Sort algorithm
+ * Author:      kyscg
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

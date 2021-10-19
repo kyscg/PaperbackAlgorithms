@@ -1,6 +1,11 @@
+/*
+ * Name:        binarySearch.cpp
+ * Description: Implementation of the Binary Search algorithm
+ * Author:      kyscg
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
-
 
 void binarySearch(int a[], int v, int n)
 {
@@ -27,18 +32,18 @@ void binarySearch(int a[], int v, int n)
 
 int main()
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
 
-    // cout << "Number of keys:";
-    int n;
-    cin >> n;
+	// cout << "Number of keys:";
+	int n;
+	cin >> n;
 
-    // cout << "Enter the keys:\n";
-    int a[n] = {0};
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
+	// cout << "Enter the keys:\n";
+	int a[n] = {0};
+	for (int i = 0; i < n; i++)
+		cin >> a[i];
 
 	// cout << "Enter the element to be searched:";
 	int v;
@@ -47,6 +52,6 @@ int main()
 	// output: Index or "NIL"
 	binarySearch(a, v, n);
 
-    cout << "\n";
-    return 0;
+	cout << "\n";
+	return 0;
 }

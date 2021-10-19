@@ -1,3 +1,10 @@
+/*
+ * Name:        findSum.cpp
+ * Description: Given an array and a sum, the algorithm checks whether
+ *              there are two elements such that they add up to the sum.
+ * Author:      kyscg
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,6 +1,11 @@
+/*
+ * Name:        selectionSort.cpp
+ * Description: Implementation of the Selection Sort algorithm
+ * Author:      kyscg
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
-
 
 void selectionSort(int a[], int n)
 {
@@ -21,22 +26,22 @@ void selectionSort(int a[], int n)
 
 int main()
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
 
-    // cout << "Number of keys:";
-    int n;
-    cin >> n;
+	// cout << "Number of keys:";
+	int n;
+	cin >> n;
 
-    // cout << "Enter the keys:\n";
-    int a[n] = {0};
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
+	// cout << "Enter the keys:\n";
+	int a[n] = {0};
+	for (int i = 0; i < n; i++)
+		cin >> a[i];
 
 	// output: Sorted array via selection sort.
 	selectionSort(a, n);
 
-    cout << "\n";
-    return 0;
+	cout << "\n";
+	return 0;
 }

@@ -1,6 +1,12 @@
+/*
+ * Name:        binaryAddition.cpp
+ * Description: Program that adds two n-bit binary strings and returns
+ * 				the result as a (n+1)-bit binary string.
+ * Author:      kyscg
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
-
 
 string addBin(int a[], int b[], int n)
 {
@@ -23,24 +29,24 @@ string addBin(int a[], int b[], int n)
 
 int main()
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
 
-    // cout << "Number of bits:";
-    int n;
-    cin >> n;
+	// cout << "Number of bits:";
+	int n;
+	cin >> n;
 
-    // cout << "Enter the binary numbers:\n";
-    int a[n] = {0}, b[n] = {0};
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
-    for (int i = 0; i < n; i++)
+	// cout << "Enter the binary numbers:\n";
+	int a[n] = {0}, b[n] = {0};
+	for (int i = 0; i < n; i++)
+		cin >> a[i];
+	for (int i = 0; i < n; i++)
 		cin >> b[i];
 
 	// output: Binary representation of c = a + b
 	cout << addBin(a, b, n);
 
-    cout << "\n";
-    return 0;
+	cout << "\n";
+	return 0;
 }

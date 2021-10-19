@@ -1,13 +1,18 @@
+/*
+ * Name:        linearSearch.cpp
+ * Description: Implementation of the linear search algorithm
+ * Author:      kyscg
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 
-
 string linSearch(int a[], int v, int n)
 {
-	for (int i = 0; i < n; i++)
-		if(a[i] == v)
-			return to_string(i);
-	return "NIL";
+    for (int i = 0; i < n; i++)
+        if (a[i] == v)
+            return to_string(i);
+    return "NIL";
 }
 
 int main()
@@ -16,16 +21,16 @@ int main()
     cin.tie(0);
     cout.tie(0);
 
-    //cout << "Number of keys:";
+    // cout << "Number of keys:";
     int n;
     cin >> n;
 
-    //cout << "Enter the keys:\n";
+    // cout << "Enter the keys:\n";
     int a[n] = {0};
-    for(int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
         cin >> a[i];
 
-    //cout << "Enter the element:\n";
+    // cout << "Enter the element:\n";
     int v;
     cin >> v;
 
